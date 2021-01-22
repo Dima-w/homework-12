@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section class="container">
+		<form>
+			<div class="top-box">
+				<h1>Випускний</h1>
+				<p>3 школа, 11 - А, 2021</p>
+				<p class="red-text">* Обязательно</p>
+			</div>
+			<div class="main-box">
+				 <label for="email">Адрес электронной почты<span class="red-text"> *</span></label>
+				 <input type="email" name="email" id="email" placeholder="Ваш адрес эл. почты" required>
+			</div>
+			<div class="main-box">
+				 <label for="radio-one">Дрескот<span class="red-text"> *</span></label>
+				 <input type="radio" name="radio" required id="radio-one"><span>Мультяшні костюми</span><br>
+				 <input type="radio" name="radio" required id="radio-one"><span>Футболка - шорти</span><br>
+				 <input type="radio" name="radio" required id="radio-one"><span>Смокінг / сукня</span>
+			</div>
+			<div class="main-box">
+				 <label id="no-indentation-bottom" for="radio-two">Ресторан<span class="red-text"> *</span></label>
+				 <p class="subtitle">Тільчи чесно</p>
+				 <input type="radio" name="radio" required id="radio-two"><span>Faro Del Porto</span><br>
+				 <input type="radio" name="radio" required id="radio-two"><span>Forest</span><br>
+				 <input type="radio" name="radio" required id="radio-two"><span>Vano</span><br>
+				 <input type="radio" name="radio" required id="radio-two"><span>Буба</span><br>
+				 <input type="radio" name="radio" required id="radio-two"><span>Fugu</span><br>
+				 <input type="radio" name="radio" required id="radio-two"><span>McDonals</span>
+			</div>
+			<div class="main-box">
+				 <label>Дата<span class="red-text" id="date"> *</span></label>
+				 <p class="under-heading">Дата</p>
+				 <input type="date" name="date" required id="date">
+			</div>
+			<div class="main-box">
+				 <label id="time">Час<span class="red-text"> *</span></label>
+				 <p class="under-heading">Час</p>
+					<div class="time-box">
+				 		<input type="text" name="text" required id="time"maxlength="2">
+				 		<span>:</span>
+				 		<input type="text" name="text" required id="time" maxlength="2">
+				 	</div>
+			</div>
+			<div class="main-box">
+				 <label for="radio-one">Ведучі<span class="red-text"> *</span></label>
+				 <input type="checkbox" name="radio" id="radio-one"><span>Дід Мороз</span><br>
+				 <input type="checkbox" name="radio" id="radio-one"><span>Бетмен</span><br>
+				 <input type="checkbox" name="radio" id="radio-one"><span>Зеленський</span><br>
+				 <input type="checkbox" name="radio" id="radio-one"><span>Вінник / Зібров</span>
+			</div>
+			<div class="switch-box">
+				<label class="switch">
+		  			<input type="checkbox">
+		  			<span class="slider round"></span>
+				</label>
+				<p>Отправить мне копию ответов</p>
+			</div>
+			<button type="subtitle">Отправить</button>
+		</form>
+		<footer>
+		<div class="one-info-footer">
+			<div class="foto">
+				<img src="https://www.gstatic.com/recaptcha/api2/logo_48.png">
+			</div>
+			<div>
+				<p>reCAPTCHA</p>
+				<a href="https://policies.google.com/privacy?hl=en">Конфиденциальность Условия</a>
+			</div>
+		</div>
+		<div class="two-info-footer">
+			<p>Компания Google не имеет никакого отношения к этому контенту.<a href="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfkjs-KwHaUO4cO2U5rSsIwXTmGA3b8wltL0nL5o7MFtDbUhg/reportabuse?source=https://docs.google.com/forms/d/e/1FAIpQLSfkjs-KwHaUO4cO2U5rSsIwXTmGA3b8wltL0nL5o7MFtDbUhg/viewform">Сообщение о нарушении</a> - <a href="https://policies.google.com/terms">Условия использования</a> - <a href="https://policies.google.com/privacy">Политика конфиденциальности</a></p>
+		</div>
+		<div class="three-info-footer">
+			<a href="https://www.google.com/forms/about/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms">Google Формы</a>
+		</div>
+	</footer>
+	</section>
+</body>
+</html>
